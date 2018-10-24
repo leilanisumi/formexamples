@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Form</title>
+</head>
+<body>
+  <form>
+    <label>First Name</label>
+    <input type="text" name="firstName" placeholder="First Name" />
+
+    <label> Radio</label>
+    <input type="radio" name="radio" placeholder="radio"/>
+
+    <label> Email</label>
+    <input type="email" name="email" placeholder="email"/>
+
+    <label>Password</label>
+    <input type="password" name="password" placeholder="password" />
+
+    <label>Dropdown</label>
+    <select name="edu">
+      <option value="ns">North School</option>
+      <option value="ss">South School</option>
+      <option value="es">East School</option>
+      <option value="ws">West School</option>
+      <option value="nw">Northwest School</option>
+    </select>
+
+    <label>Textarea</label>
+    <textarea rows="25" cols="50" name="tweet" placerholder="bio"></textarea>
+
+    <label>Calendar</label>
+    <input type="date" name="timeOfYear"/>
+
+    <input type="submit"/>
+    <button type="submit">Apply</button>
+    <button type="button" onclick="alert('hello world')">Click here</button>
+    
+  </form>
+</body>
+</html>
